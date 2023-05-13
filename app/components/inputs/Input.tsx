@@ -55,7 +55,8 @@ const Input: React.FC<InputProps> = ({ id, label, type='text', disabled, formatP
         top-5
         z-10
         origin-[0]
-        ${formatPrice ?'pl-9':'pl-4'}
+        ${formatPrice ?'pl-9':'left-4'}
+        peer-placeholder-shown:scale-100
         `}>
         {label}
       </label>
