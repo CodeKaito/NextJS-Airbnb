@@ -49,7 +49,14 @@ const Input: React.FC<InputProps> = ({ id, label, type='text', disabled, formatP
       <label className={`
         absolute
         text-md
-        duration-50`}>
+        duration-150
+        transform
+        -translate-y-3
+        top-5
+        z-10
+        origin-[0]
+        ${formatPrice ?'pl-9':'pl-4'}
+        `}>
         {label}
       </label>
     </div>
