@@ -57,6 +57,10 @@ const Input: React.FC<InputProps> = ({ id, label, type='text', disabled, formatP
         origin-[0]
         ${formatPrice ?'pl-9':'left-4'}
         peer-placeholder-shown:scale-100
+        peer-placeholder-shown:translate-y-0
+        peer-focus:scale-75
+        peer-focus:-translate-y-4
+        ${errors[id] ? 'text-rose-500' : 'text-zinc-400'}
         `}>
         {label}
       </label>
