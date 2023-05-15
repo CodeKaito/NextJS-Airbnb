@@ -1,6 +1,6 @@
 # Clone Airbnb Full Stack App using Next.js 13 App Router
 
-Welcome to our Clone Airbnb Full Stack App repository! This app is created using the latest version of Next.js 13 App router and powered by React, Tailwind, Prisma, MongoDB, and NextAuth. This app aims to provide a complete experience of Airbnb and facilitate users to look for the best rental homes available in their desired location..
+Welcome to our Clone Airbnb Full Stack App repository! This app is created using the latest version of Next.js 13 App router and powered by React, Tailwind, Prisma, MongoDB, and NextAuth. This app aims to provide a complete experience of Airbnb and facilitate users to look for the best rental homes available in their desired location...
 
 ## Features
 
